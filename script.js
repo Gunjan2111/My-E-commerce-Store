@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const productElement = document.createElement('div');
                 productElement.classList.add('product');
                 productElement.innerHTML = `
-                    <img src="images/${product.image}" alt="${product.name}">
+                    <img src="${product.image}" alt="${product.name}">
                     <div>
                         <h3>${product.name}</h3>
                         <p>$${product.price.toFixed(2)}</p>
